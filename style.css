@@ -15,10 +15,18 @@ td a{
     padding: 0.75rem;
     transition: all ease-in 0.3s;
 }
-
+tr{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px rgb(227, 227, 227);   
+}
 td a:hover{
     filter: brightness(85%);
 }
-tr{
-    border: black solid 1px;
-}
+@media (max-width: 600px) {
+    tr{ 
+        display: flex;
+        flex-direction: column;
+    }
+  }
