@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+nav
+{
+    display: flex;
+    padding: .5rem;
+    background-color: #ececec;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_elements{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav_elements a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Rasa", serif;
+
+}
+
+.nav_elem_1{
+    display: flex;
+    gap: 54px;
+}
+
+.nav_elem_2{
+    display: flex;
+    gap: 27px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url("images/185195-sunrise-on-the-lavender-fields-in-valensole-in-provence.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.home-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 8rem;
+    font-weight: 800;
+    color: white;
+}
+
+.home-text > span {
+    color: #93909e;
+}
+
+.home > a {
+    margin-top: 8rem;
+    padding: 1rem 3rem;
+    font-family: "Rasa", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 3rem 0 3rem;
+    background-color: rgba(186, 132, 92, 1);
+}
+
+.about-coffee {
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left, .about-right {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.left-info, .info-right {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.left-info > div, .info-right > div {
+    font-family: "Rasa", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-width: 200px;
+}
+
+.about-img{
+    width: 400px;
+}
+
+/* Seção Coffee Mood */
+
+.coffee-mood{
+    background-color: rgba(186, 132, 92, 1);
+    padding: 5rem;
+}
+
+.coffe-mood-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.cm-img{
+    width: 470px;
+    
+}
+.cm-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.cm-texts h1{
+    font-size: 60px;
+    font-family: 'Rasa', sans-serif;
+}
+.cm-texts h1 span{
+    color:rgba(89, 37, 19, 1);
+}
+.cm-texts-botao{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: flex-end;
+    justify-self: self-end;
+}
+
+.cm-texts a{
+    color: black;    
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Rasa', sans-serif;
+}
+
+.cm-texts{
+    display: grid;
+    flex-direction: column;
+}
+
+/* Aula 15 */
+/* Coffe mood cards */
+
+.coffe-mood-container2{
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+    justify-self: center;
+    align-items: center;
+}
+
+.cm-card{
+    font-family: "Proza Libre", sans-serif;
+    font-size: 17px;
+}
+
+.price{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.cm-card-img{
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: rgb(160,71,41) solid 3px;
+}
+.cm-card-img img{
+    width: 150px;
+    height: 170px;
+}
+
+.coffee-galeria{
+    background-color: #0A0907;
+}
+.coffee-galeria h1{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.galeria-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-change{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: #0A0907;
+    font-size: 0.8rem;
+    padding: 4rem 0 2rem 0;
+    color: white;
+    text-align: center;
+    font-family: 'Rasa';
+}
